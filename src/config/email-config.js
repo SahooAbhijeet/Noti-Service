@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 const {GMAIL_EMAIL, GMAIL_PASS} = require('./server-config');
 
-const maileSender = nodemailer.createTransport({
+const mailSender = nodemailer.createTransport({
     service: "Gmail",
     auth: {
         user: GMAIL_EMAIL,
@@ -10,4 +10,4 @@ const maileSender = nodemailer.createTransport({
     }
 });
 
-module.exports = maileSender;
+module.exports = mailSender;

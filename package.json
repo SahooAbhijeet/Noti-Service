@@ -4,11 +4,12 @@
   "description": "This is a base node js project template, which anyone can use as it has been prepared, by keeping some of the most important code principles and project management recommendations. Feel free to change anything.",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon src/index.js"
+    "dev": "npx nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.10.3",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "http-status-code": "^2.1.0",
